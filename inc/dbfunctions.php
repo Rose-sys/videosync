@@ -2,7 +2,7 @@
 class dbaccess {
         public function __Construct(){}
         private function dbconnect() {
-                $$this->dbconn = new PDO("mysql:dbname=videosync;host=localhost", "<USERNAME>","<PASSWORD>");
+                $this->dbconn = new PDO("mysql:dbname=videosync;host=localhost", "<USERNAME>","<PASSWORD>");
         }
         
         // Verify login
