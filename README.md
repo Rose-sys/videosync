@@ -26,6 +26,12 @@ Once logged in, press Create Room, it will add a new room. When you click on GO 
 
 This URL can be entered in Tower Unite media player so everyone is getting synced. Once you place a link to the video in the master tab and press GO, it will sync up everyone and set the video to paused. Once starting play back, I recommend muting the master tab when you watch the video in Tower Unite.
 
+Keep the master window open, as new clients joining would have to sync with master. Otherwise, they will start at the point where master left off.
+
 # Video types:
 
 Videos should be converted to webm format as unity or tower unite is restricted to limited amount of formats.
+
+# Notes:
+Functions may not work and needs to be changed. I do not have much time for this so it might take a while before it is added. Feel free to commit changes to help and improve.
+Basic functions to make a room and host videos works, which was most important. Noticed deleting rooms did not work, and no option to change password from the UI.
