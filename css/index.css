@@ -1,0 +1,97 @@
+body, html {
+	background: #e9e2d0;
+	margin: 0px;
+	font-family: 'Ubuntu', sans-serif;
+
+}
+
+.top {	
+	background-image: url('../img/top.png');
+	background-size: cover;
+	width: 100%;
+	height: 60px;
+	font-size: 40px;
+	
+	line-height: 60px;
+	
+	color: #fff;
+
+}
+.icon {
+	background-image: url('../img/icon.png');
+	background-size: cover;
+	width: 80px;
+	height: 60px;
+	float: left;
+}
+
+#loginbox {
+	position: fixed;
+	background-color: #e7d6c9;
+	width: 300px;
+	min-height: 100px;
+	left: calc(50% - 200px);
+	top:  calc(50% - 100px);
+	-webkit-box-shadow: 4px 7px 11px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 4px 7px 11px 0px rgba(0,0,0,0.75);
+	box-shadow: 4px 7px 11px 0px rgba(0,0,0,0.75);
+	opacity: 0;
+	border-radius: 5px;
+}
+
+.login-title-bar {
+	background-color: #5d0504;
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+	font-size: 20px;
+	
+	border-radius: 5px 5px 0px 0px;
+}
+
+.login-text {
+	margin: 15px 0px 20px 15px;
+}
+
+.left {
+	float: left;
+}
+
+.label {
+	width: 100px;
+}
+
+.form-block {
+	margin-left: 20px;
+	margin-top: 5px;
+}
+
+.clear {
+	clear:both;
+}
+.login-button {
+	background-color: #7c0505;
+	box-shadow: none;
+	text-decoration: none;
+	display: inline-block;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+	color: #fff;
+	margin-left: 223px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.login-button:hover {
+	background-color: #5d0504;
+}
+#status {
+	margin-left: 25px;
+	margin-top: -10px;
+	margin-bottom: 15px;
+	display: none;
+}
+.noline {
+	border: 1px solid #a0a0a0;
+}

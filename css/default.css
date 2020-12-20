@@ -1,0 +1,49 @@
+body, html {
+	margin: 0px;
+	background: black;
+	color: white;
+}
+.floatleft {
+	float: left;
+}
+.space {
+	clear: both;
+}
+
+.messagebox {	
+	position: fixed;
+	width: 400px;
+	height: 50px;
+	left: 50%;
+	top: 50%;
+	margin-left: -200px;
+	margin-top: -25px;
+	border: 1px solid black;
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+	background: white;
+	z-index: 1000000000000000000000000000;
+	visibility: hidden;
+	color: black;
+	font-size: 1vh;	
+	line-height: 1vh;
+}
+
+.blackout {
+	position: fixed;
+	min-width: 100vw;
+	min-height: 100vh;
+	left: 0px;
+	top: 0px;
+	background: rgba(0,0,0,0.5);
+	visibility: hidden;
+}
+#hsession {
+		position: absolute;
+		visibility: hidden;
+}
+video { 
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+}

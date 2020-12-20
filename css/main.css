@@ -1,0 +1,102 @@
+#Control {
+		height: 40px;
+		width: 100%;
+		text-align: center;
+		background-color: #000;
+}
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+.clear {
+	clear: both;
+}
+
+.button {
+	 margin: 3px;
+	 background-color: #751c1c;
+	 border-radius: 5px;
+	 width: 150px;
+	 height: 30px;
+	 line-height: 30px;
+	 text-align: center;
+	 color: #fff;
+}
+.buttonsmall {
+	 margin: 3px;
+	 background-color: #751c1c;
+	 border-radius: 5px;
+	 width: 50px;
+	 height: 30px;
+	 line-height: 30px;
+	 text-align: center;
+	 color: #fff;
+}
+#Rooms {
+	width: 1200px;
+	position: relative;
+	left: 50%;
+	margin-top: 50px;
+	margin-left: -600px;
+	border-radius: 15px;
+	padding: 5px;
+	background-color: #e0d7bc;
+	text-align: center;
+}
+
+.Room {
+	margin: 5px;
+	border-radius: 10px;
+	padding: 5px;
+	background-color: #d7cba8;
+
+}
+.public {
+     margin: 3px;
+	 background-color: #025b4e;
+	 border-radius: 5px;
+	 width: 150px;
+	 height: 30px;
+	 line-height: 30px;
+	 text-align: center;
+	 color: #fff;
+}
+.private {
+	 margin: 3px;
+	 background-color: #710d62;
+	 border-radius: 5px;
+	 width: 150px;
+	 height: 30px;
+	 line-height: 30px;
+	 text-align: center;
+	 color: #fff;
+}
+.title {
+	 line-height: 35px;
+	 padding-left: 15px;
+	
+}
+.dialog {
+	position: absolute;
+	background-color: #e7d6c9;
+	width: 300px;
+	min-height: 100px;
+	left: calc(50% - 200px);
+	top:  calc(50% - 100px);
+	-webkit-box-shadow: 4px 7px 11px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 4px 7px 11px 0px rgba(0,0,0,0.75);
+	box-shadow: 4px 7px 11px 0px rgba(0,0,0,0.75);
+	opacity: 0;
+	border-radius: 5px;
+}
+
+.button:hover {
+	 background-color: #942323;
+	
+}
+.buttonsmall:hover {
+	 background-color: #942323;
+}
