@@ -8,11 +8,11 @@ Pretty messy code :(
 
 # Quick guide:
 Create a new database and call it videosync, then import videosync_database.sql into this database.
-Edit both files: inc/database.php and inc/dbfunctions.php and change <USERNAME> and <PASSWORD> to reflect the correct username and password for the database in following the line:
+Edit both files: inc/database.php and inc/dbfunctions.php and change USERNAME and PASSWORD to reflect the correct username and password for the database in following the line:
 
-$this->dbconn = new PDO("mysql:dbname=videosync;host=localhost", "<USERNAME>","<PASSWORD>");
+$this->dbconn = new PDO("mysql:dbname=videosync;host=localhost", "USERNAME","PASSWORD");
   
-If you want to modify the password for the master account, go within your browser to domainwhereitisuploaded.com/path/to/videosync/createpassword.php?pw=<YOURNEWPASSWORD> (change <YOURNEWPASSWORD> to the password you want) Replace <HASH> with the hash from this url and update the password hash with the following mysql query: 
+If you want to modify the password for the master account, go within your browser to domainwhereitisuploaded.com/path/to/videosync/createpassword.php?pw=YOURNEWPASSWORD (change YOURNEWPASSWORD to the password you want) Replace <HASH> with the hash from this url and update the password hash with the following mysql query: 
 
 UPDATE `users` SET `password` = '<HASH>' WHERE `users`.`userid` = 1;
 
@@ -33,7 +33,7 @@ Keep the master window open, as new clients joining would have to sync with mast
 Videos should be converted to webm format as unity or tower unite is restricted to limited amount of formats.
 
 Command for Linux (FFMPEG): 
-ffmpeg -i <INPUTFILE> -c:v libvpx -crf 15 -b:v 4M -c:a libvorbis -q:a 10 -threads 16 <OUTPUTFILE> -y
+ffmpeg -i INPUTFILE -c:v libvpx -crf 15 -b:v 4M -c:a libvorbis -q:a 10 -threads 16 OUTPUTFILE -y
 
 # Notes:
 Functions may not work and needs to be changed. I do not have much time for this so it might take a while before it is added. Feel free to commit changes to help and improve.
