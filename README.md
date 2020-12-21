@@ -32,6 +32,10 @@ Keep the master window open, as new clients joining would have to sync with mast
 
 Videos should be converted to webm format as unity or tower unite is restricted to limited amount of formats.
 
+Command for Linux (FFMPEG): 
+ffmpeg -i <INPUTFILE> -c:v libvpx -crf 15 -b:v 4M -c:a libvorbis -q:a 10 -threads 16 <OUTPUTFILE> -y
+
 # Notes:
 Functions may not work and needs to be changed. I do not have much time for this so it might take a while before it is added. Feel free to commit changes to help and improve.
 Basic functions to make a room and host videos works, which was most important. Noticed deleting rooms did not work, and no option to change password from the UI.
+
